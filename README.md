@@ -18,9 +18,12 @@ WebApiConfig
 implement
 
 1-
-        // this for remove json and preview xml only 
-            config.Formatters.Remove(config.Formatters.XmlFormatter);
+      
+            # this for remove json and preview xml only 
+        
 
+            config.Formatters.Remove(config.Formatters.XmlFormatter);
+         #endregion
 2-
 
 
@@ -39,8 +42,10 @@ implement
             #endregion
             
 3-
- // this for move from http tp https
+            # this for move from http tp https
+
               config.Filters.Add(new REquiredHttpsAttribute());
 
             
-            
+                        #endregion
+
