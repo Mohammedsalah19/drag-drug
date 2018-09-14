@@ -6,10 +6,15 @@ customapi by .net
 >> impelment main functions
 
 1- GET
+
 2- GET(id)
+
 3-PUT
+
 4-POST
+
 5-DELETE
+
 -----------------
 Add class "RequiredHttpsAttribute"
     this class explain how use https rather than http
