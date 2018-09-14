@@ -1,9 +1,9 @@
 #drgs-repository-MVCAPI
 
 
-customapi by .net 
+custom api by .net 
 
->> impelment main functions
+>> impelement  main functions
 
 1- GET
 
@@ -20,11 +20,12 @@ Add class "RequiredHttpsAttribute"
     this class explain how use https rather than http
 ------------------------
 WebApiConfig
-implement
+
+impelement 
 
 1-
       
-            # this for remove json and preview xml only 
+            # this for remove xml and preview json only 
         
 
             config.Formatters.Remove(config.Formatters.XmlFormatter);
@@ -47,6 +48,7 @@ implement
             #endregion
             
 3-
+
             # this for move from http tp https
 
               config.Filters.Add(new REquiredHttpsAttribute());
